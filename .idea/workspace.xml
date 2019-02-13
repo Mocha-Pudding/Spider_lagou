@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aaa895c-9c02-4330-b3fb-7234f2c96b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagou_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagou_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spider_lagou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider_lagou.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou_selenium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +13,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Spider_lagou$lagou_requests.coverage" NAME="lagou_requests Coverage Results" MODIFIED="1550061138023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spider_lagou$lagou_selenium.coverage" NAME="lagou_selenium Coverage Results" MODIFIED="1550072911946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spider_lagou$lagou_requests.coverage" NAME="lagou_requests Coverage Results" MODIFIED="1550068453585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Spider_lagou$lagou1.coverage" NAME="lagou1 Coverage Results" MODIFIED="1549991557349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1221601507">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,35 +40,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="579" />
+          <entry key="py" value="2219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="579" />
+          <entry key="Python" value="2219" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lagou_requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="874">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
+                <marker date="1550068749209" expanded="true" signature="2449:3266" ph="..." />
+                <marker date="1550068749209" expanded="true" signature="3277:3282" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lagou_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="158">
+              <caret line="11" column="97" lean-forward="true" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+              <folding>
+                <element signature="e#41#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/lagou1.py" />
         <option value="$PROJECT_DIR$/lagou2.py" />
-        <option value="$PROJECT_DIR$/lagou_selenium.py" />
         <option value="$PROJECT_DIR$/lagou_requests.py" />
+        <option value="$PROJECT_DIR$/lagou_selenium.py" />
       </list>
     </option>
   </component>
@@ -145,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lagou_requests">
+  <component name="RunManager" selected="Python.lagou_selenium">
     <configuration name="lagou1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_lagou" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +194,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lagou_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spider_lagou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lagou_selenium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.lagou1" />
       <item itemvalue="Python.lagou_requests" />
+      <item itemvalue="Python.lagou_selenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lagou_selenium" />
         <item itemvalue="Python.lagou_requests" />
         <item itemvalue="Python.lagou1" />
       </list>
@@ -216,14 +244,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="289" y="0" width="1077" height="728" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20058997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.179941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.65882355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60336137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,19 +282,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lagou1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lagou2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lagou_selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou1.py" />
+    <entry file="file://$PROJECT_DIR$/lagou2.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -284,10 +300,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lagou_requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="874">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
+            <marker date="1550068749209" expanded="true" signature="2449:3266" ph="..." />
+            <marker date="1550068749209" expanded="true" signature="3277:3282" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" column="97" lean-forward="true" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+          <folding>
+            <element signature="e#41#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
